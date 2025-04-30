@@ -11,7 +11,7 @@ export default function Navbar() {
     const isPhoto = pathname.startsWith("/photo");
 
     return (
-        <nav className="w-full font-sans pr-12 pl-12 pt-2 flex items-center justify-between">
+        <nav className="w-full font-sans pr-14 pl-14 pt-2 flex items-center justify-between">
             <div className="w-1/3">
                 <div className="flex items-center text-md font-normal">
                     {/* Photo Link */}
