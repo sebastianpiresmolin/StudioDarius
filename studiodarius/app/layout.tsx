@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 import Navbar from "@/components/ui/navbar";
 import "./globals.css";
+import Webfooter from "@/components/ui/webfooter";
 
 const notoSans = Noto_Sans_JP({
   variable: "--font-noto-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Webfooter />
       </body>
     </html>
   );
