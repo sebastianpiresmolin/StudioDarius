@@ -7,7 +7,7 @@ export default function Webfooter() {
                 <h1 className="font-serif font-light text-6xl text-white pl-12 pt-12">Låt oss jobba ihop</h1>
                 <a className="text-stone-400 font-sans pl-12 pt-12" href="mailto:studiodarius.falkoping@gmail.com">studiodarius.falkoping@gmail.com</a>
             </div>
-            <div className="pr-12 pt-12">
+            <div className="pr-12 pt-12 hidden md:block">
                 <Image src={'/whitedarius.png'} alt={'Studio Darius'} height={500} width={500} className="w-[400px] h-[85px] md:w-[200px] md:h-[40px]" />
             </div>
         </footer>
