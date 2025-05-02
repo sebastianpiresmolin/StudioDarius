@@ -5,8 +5,8 @@ export default function Websubhero() {
             <div>
                 <div className="flex md:flex-row flex-col w-full items-center mt-8">
                     <div className="flex-col md:w-1/2 items-center">
-                        <h1 className="font-sans text-3xl lg:text-6xl font-thin mb-8 lg:mb-14 min-w-full md:w-3/4 text-center">
-                            Er nästa <span className="font-serif text-3xl lg:text-6xl">design partner</span>
+                        <h1 className="font-sans text-3xl lg:text-4xl xl:text-5xl font-thin mb-8 lg:mb-10 min-w-full md:w-3/4 text-center">
+                            Er nästa <span className="font-serif text-3xl lg:text-4xl xl:text-5xl">design partner</span>
                         </h1>
                         <div className="flex flex-col m-auto w-3/4 ">
                             <p className="font-sans font-light text-md">

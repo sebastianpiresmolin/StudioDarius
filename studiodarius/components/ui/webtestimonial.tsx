@@ -2,7 +2,7 @@
 
 export default function Webtestimonial() {
     return (<div className="w-full flex flex-col m-auto lg:mt-36 mt-10">
-            <div className="m-auto font-sans font-thin text-xl md:text-3xl lg:text-5xl xl:text-7xl">
+            <div className="m-auto font-sans font-thin text-xl md:text-3xl lg:text-5xl">
                 Låt oss ta eran verksamhet till <span className="font-serif">nästa nivå</span>
             </div>
             <div className="m-auto font-sans font-thin text-lg md:text-2xl lg:text-4xl text-center mt-5 lg:mt-10">

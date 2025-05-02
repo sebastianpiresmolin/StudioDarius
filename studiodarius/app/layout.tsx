@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="min-h-screen max-w-[100vw] bg-white">
       <body
-        className={`${notoSans.variable} ${notoSerif.variable} antialiased min-h-screen bg-white`}
+        className={`${notoSans.variable} ${notoSerif.variable} antialiased min-h-screen bg-white m-auto`}
       >
         <Navbar />
         {children}

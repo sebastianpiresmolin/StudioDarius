@@ -22,20 +22,20 @@ export default function Navbar() {
                             }`}
                         >
                             <img src="/camera.png" alt="Camera Icon" className="w-4 h-4 md:w-5 md:h-5 mr-1" />
-                            <h3 className="md:text-md text-xs">Fotografi</h3>
+                            <h3 className="md:text-md text-xs xl:text-[16px]">Fotografi</h3>
                         </div>
                     </Link>
 
-                    <h3 className="pr-1 pl-2 xl:text-3xl text-sm">/</h3>
+                    <h3 className="pr-1 pl-2 xl:text-3xl text-sm xl:text-[18px]">/</h3>
 
                     {/* Web Link */}
                     <Link href="/web">
                         <h3
-                            className={`flex items-center md:text-md text-xs ${
+                            className={`flex items-center md:text-md text-xs xl:text-[16px] ${
                                 isPhoto ? "opacity-30" : "opacity-100"
                             }`}
                         >
-                            <span className="text-orange-300 xl:text-md text-xs">&lt;/&gt;</span> Webbutveckling
+                            <span className="text-orange-300 xl:text-md text-xs xl:text-[16px]">&lt;/&gt;</span> Webbutveckling
                         </h3>
                     </Link>
                 </div>
