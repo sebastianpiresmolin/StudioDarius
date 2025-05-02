@@ -8,7 +8,7 @@ export default function Webfooter() {
                 <a className="text-stone-400 font-sans pl-12 pt-12" href="mailto:studiodarius.falkoping@gmail.com">studiodarius.falkoping@gmail.com</a>
             </div>
             <div className="pr-12 pt-12">
-                <Image src={'/whitedarius.png'} alt={'Studio Darius'} height={500} width={500} className="w-[400px] h-[85px]" />
+                <Image src={'/whitedarius.png'} alt={'Studio Darius'} height={500} width={500} className="w-[400px] h-[85px] md:w-[200px] md:h-[40px]" />
             </div>
         </footer>
     );

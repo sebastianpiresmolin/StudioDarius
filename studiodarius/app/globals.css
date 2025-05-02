@@ -13,14 +13,14 @@
 
 @font-face {
   font-family: 'JHC Audemars Bold';
-  src: url('../public/fonts/JHCAudemars-BoldItalic.otf');
+  src: url('../public/fonts/jhcaudemars-bolditalic.ttf');
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'JHC Audemars Medium';
-  src: url('../public/fonts/JHCAudemars-Medium.otf');
+  src: url('../public/fonts/jhcaudemars-medium.ttf');
   font-weight: bold;
   font-style: italic;
 }

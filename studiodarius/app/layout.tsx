@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="min-h-screen bg-white">
+    <html lang="en" className="min-h-screen max-w-[100vw] bg-white">
       <body
         className={`${notoSans.variable} ${notoSerif.variable} antialiased min-h-screen bg-white`}
       >
