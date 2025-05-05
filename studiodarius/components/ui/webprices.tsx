@@ -9,7 +9,7 @@ export default function Webprices() {
                 <div className="bg-[rgba(217,217,217,0.45)] w-[95%] h-[420px] flex flex-col rounded-2xl m-auto">
                     <div className="flex justify-between p-5">
                         <h3 className="font-sans text-md md:text-xl xl:text-lg">Bas</h3>
-                        <h3 className="font-sans text-md font-bold md:text-xl xl:text-lg">Från 2995 kr</h3>
+                        <h3 className="font-sans text-md font-bold md:text-xl xl:text-lg">Från 3995 kr</h3>
                     </div>
                     <div className="flex justify-center">
                         <p className="font-sans font-light text-sm m-auto text-center md:text-lg xl:text-xl xl:pl-2 xl:pr-2">Perfekt för dig som behöver en enkel hemsida för att komma igång</p>
@@ -33,7 +33,7 @@ export default function Webprices() {
                 <div className="bg-[#AEFF2B] w-[95%] h-[420px] flex flex-col rounded-2xl m-auto">
                     <div className="flex justify-between p-5">
                         <h3 className="font-sans text-md md:text-xl xl:text-lg">Standard</h3>
-                        <h3 className="font-sans text-md font-bold md:text-xl xl:text-lg">Från 2995 kr + 199 kr/mån</h3>
+                        <h3 className="font-sans text-md font-bold md:text-xl xl:text-lg">Från 3995 kr + 199 kr/mån</h3>
                     </div>
                     <div className="flex justify-center">
                         <p className="font-sans font-light text-sm text-center md:text-lg xl:text-xl xl:pl-2 xl:pr-2">För dig som vill ha trygg drift, support och regelbundet underhåll.</p>

@@ -46,3 +46,7 @@
 .bg-clip-content {
   background-clip: content-box;
 }
+
+.white-text-shadow {
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
