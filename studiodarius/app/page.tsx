@@ -23,7 +23,7 @@ export default function Home() {
                 <img src="/camera.png" alt="Camera Icon" className="w-4 h-4 md:w-5 md:h-5 mr-1" /> Fotografi
               </h3>
               <p className="text-xl font-sans text-center md:text-2xl md:p-5 mt-4">Fånga dem perfekta ögonblicken. För bröllop så väl som barn, djur eller företag.</p>
-              <div className="w-full flex justify-end mt-5 md:mt-16">
+              <div className="w-full flex justify-end mt-5 md:mt-16 xl:mt-8">
                 <Link href="/photo" className="m-auto pt-3 pb-3 pr-10 pl-10 rounded-2xl border-stone-600 border-1 text-white font-sans bg-black">
                     Besök
                 </Link>
