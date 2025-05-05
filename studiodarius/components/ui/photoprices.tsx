@@ -12,7 +12,7 @@ export default function Photoprices() {
                         <h3 className="font-sans text-xs font-bold md:text-xl xl:text-sm">Från 500 kr + 250kr/t *</h3>
                     </div>
                     <div className="flex justify-center">
-                        <p className="font-sans font-light text-sm m-auto text-center md:text-lg lg:text-xl xl:text-lg xl:pl-2 xl:pr-2">För dig som vill bevara ögonblicken som betyder mest – när allt händer, och tiden rusar förbi.</p>
+                        <p className="font-sans font-light  pl-2 pr-2 text-sm m-auto text-center md:text-lg lg:text-xl xl:text-lg xl:pl-2 xl:pr-2">För dig som vill bevara ögonblicken som betyder mest – när allt händer, och tiden rusar förbi.</p>
                     </div>
                     <ul className="mt-5 ml-5 pl-2 pr-2">
                         <li className="flex items-center font-sans font-light text-sm lg:text-lg 2xl:text-xl mt-2">
