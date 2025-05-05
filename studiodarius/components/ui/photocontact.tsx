@@ -4,7 +4,7 @@ export default function Photocontact() {
     return (
         <div>
             <div
-                className="flex md:flex-row-reverse flex-col w-full items-center mt-8 pt-8 pb-8 2xl:mt-18 bg-[#DEE5ED] lg:pt-12 lg:pb-12 xl:pt-18 xl:pb-18 2xl:pt-36 2xl:pb-36">
+                className="flex md:flex-row-reverse flex-col w-full items-center mt-8 pt-8 pb-8 2xl:mt-18 bg-[#DEE5ED] lg:pt-12 lg:pb-12 xl:pt-18 xl:pb-18 2xl:pt-36 2xl:pb-36" id="kontakt">
                 <div className="flex-col md:w-1/2 items-center">
                     <h1 className="font-sans text-[#6B4D38] text-3xl lg:text-4xl 2xl:text-6xl font-thin mb-8 lg:mb-10 min-w-full md:w-3/4 text-center">
                         Kontakta mig!

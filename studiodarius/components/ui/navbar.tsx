@@ -13,11 +13,11 @@ export default function Navbar() {
     return (
         <nav className="w-full font-sans pl-3 pr-3 md:pl-6 md:pr-6 xl:pr-14 xl:pl-14 pt-2 flex items-center justify-between">
             <div className="md:w-1/3 w-3/5">
-                <div className="flex items-center text-md font-normal">
+                <div className="flex items-center text-md font-sans">
                     {/* Photo Link */}
                     <Link href="/photo">
                         <div
-                            className={`flex items-center text-md font-normal ${
+                            className={`flex items-center text-md font-sans ${
                                 isWeb ? "opacity-30" : "opacity-100"
                             }`}
                         >
@@ -26,16 +26,16 @@ export default function Navbar() {
                         </div>
                     </Link>
 
-                    <h3 className="pr-1 pl-2 xl:text-3xl text-sm xl:text-[18px]">/</h3>
+                    <h3 className="pr-1 pl-1 xl:text-3xl text-sm xl:text-[18px]">/</h3>
 
                     {/* Web Link */}
                     <Link href="/web">
                         <h3
-                            className={`flex items-center md:text-md text-xs xl:text-[16px] ${
+                            className={`flex font-sans items-center md:text-md text-xs xl:text-[16px] ${
                                 isPhoto ? "opacity-30" : "opacity-100"
                             }`}
                         >
-                            <span className="text-orange-300 xl:text-md text-xs xl:text-[16px]">&lt;/&gt;</span> Webbutveckling
+                            <span className="text-orange-300 xl:text-md text-xs xl:text-[16px] pr-1">&lt;/&gt;</span> Webbutveckling
                         </h3>
                     </Link>
                 </div>
@@ -44,10 +44,12 @@ export default function Navbar() {
                 <Image src={'/DARIUS..png'} alt={'Studio Darius'} height={500} width={500} className="xl:w-[270px] md:w-[160px] w-[120px] md:m-auto" />
             </div>
             <div className="w-1/3 flex-row-reverse hidden md:flex">
-                <ul className="flex gap-6">
-                    <li className="flex items-center text-md font-normal"><a href='#'>Tjänster</a></li>
-                    <li className="flex items-center text-md font-normal"><a href='#'>Priser</a></li>
-                    <li className="flex items-center text-md font-normal"><a href='#'>Kontakt</a></li>
+                <ul className={`gap-6 ${
+                        isPhoto || isWeb ? "flex" : "hidden"
+                }`}
+                >
+                    <li className="flex items-center text-md font-normal"><a href='#priser'>Priser</a></li>
+                    <li className="flex items-center text-md font-normal"><a href='#kontakt'>Kontakt</a></li>
                 </ul>
             </div>
         </nav>

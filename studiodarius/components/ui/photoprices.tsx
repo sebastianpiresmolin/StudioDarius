@@ -3,7 +3,7 @@ import {ArrowRight, Check} from "lucide-react";
 
 export default function Photoprices() {
     return (
-        <div className="w-full flex flex-col lg:pl-12 lg:pr-12 mt-10 xl:mt-18">
+        <div className="w-full flex flex-col lg:pl-12 lg:pr-12 mt-10 xl:mt-18" id="priser">
             <div className="font-sans font-thin m-auto text-2xl md:text-4xl lg:text-4xl">Prispaket</div>
             <div className="mt-10 gap-5 flex flex-col xl:flex-row justify-between text-white">
                 <div className="bg-[url('/photooffercard1.png')] bg-cover w-[95%] h-[660px] flex flex-col rounded-2xl m-auto">

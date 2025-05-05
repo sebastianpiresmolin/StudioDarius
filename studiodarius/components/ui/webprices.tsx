@@ -3,7 +3,7 @@ import {ArrowRight, Check} from "lucide-react";
 
 export default function Webprices() {
     return (
-        <div className="w-full flex flex-col lg:pl-12 lg:pr-12 mt-10 xl:mt-18">
+        <div className="w-full flex flex-col lg:pl-12 lg:pr-12 mt-10 xl:mt-18" id="priser">
             <div className="font-sans font-thin m-auto text-2xl md:text-4xl lg:text-6xl">Prispaket</div>
             <div className="mt-10 gap-5 flex flex-col xl:flex-row justify-between">
                 <div className="bg-[rgba(217,217,217,0.45)] w-[95%] h-[420px] flex flex-col rounded-2xl m-auto">

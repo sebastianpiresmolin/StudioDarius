@@ -3,7 +3,7 @@
 export default function Websubhero() {
     return (
             <div>
-                <div className="flex md:flex-row flex-col w-full items-center mt-8 2xl:mt-36">
+                <div id="kontakt" className="flex md:flex-row flex-col w-full items-center mt-8 2xl:mt-36">
                     <div className="flex-col md:w-1/2 items-center">
                         <h1 className="font-sans text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-thin mb-8 lg:mb-10 min-w-full md:w-3/4 text-center">
                             Er nästa <span className="font-serif text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl">design partner</span>
